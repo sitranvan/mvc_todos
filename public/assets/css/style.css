@@ -1,0 +1,38 @@
+body {
+  background-color: #f5f5f5;
+}
+.action {
+  width: 40px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-completed {
+  background-color: rgba(40, 167, 69, 0.2);
+}
+.action-edit {
+  background-color: rgba(23, 162, 184, 0.2);
+}
+.action-delete {
+  background-color: rgba(220, 53, 69, 0.2);
+}
+.title-todos {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.title-todos:hover {
+  color: #000 !important;
+  transform: translateX(2px);
+  transition: all linear 0.125s;
+}
+
+.link-item {
+  width: 42px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
